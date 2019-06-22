@@ -97,10 +97,6 @@ table, tr, th, td{
     
 }
 
-/* List properties */
-ul li{
-    list-style: square;
-}
 
 /* Corner icon properties */
 #topLeft img{
@@ -186,7 +182,14 @@ footer p{
 }
 
 #TechnicalDataModel ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
     padding-left: 5rem;
+}
+
+#TechnicalDataModel ul li{
+    margin-right: 1em;
 }
 
 /* h4 */
