@@ -1,0 +1,217 @@
+/* Body properties */
+body{
+    font-family: gruppo;
+    background: #fff;
+    font-size: 125%;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Header properties*/ 
+header{
+    background-color: rgba(0, 0, 0, .9);
+    width:100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ header h1{
+    font-size: 2.5em;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    margin: 0 0;
+    bottom: .4em;
+    margin-left: 1em;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#companyLogo{
+    position: relative;
+    width: 4rem;
+    padding-left: 1em;
+}
+
+
+/* Navigation properties */
+nav{
+    width:100%;
+    background-color: rgba(0, 0, 0, .9);
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border-top-color: #555;
+    border-top-style: solid;
+    border-top-width: thin
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 0;
+}
+
+nav ul li{
+     list-style: none;
+     padding-top: .7em;
+     padding-bottom: .7em;
+}
+
+nav a{
+    text-decoration: none;
+    display: block; 
+    color: #fff;
+    padding: 0 2em;
+}
+
+nav li:hover{
+    background-color: #555;
+}
+
+
+ /* Comparison table properties */
+tr:nth-of-type(odd) {
+    background: #a5a09d;
+}
+
+th{
+    background: #6b6664 ;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table, tr, th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;;
+    
+}
+
+/* List properties */
+ul li{
+    list-style: square;
+}
+
+/* Corner icon properties */
+#topLeft img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
+}
+
+#topRight img{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 5%;
+}
+
+#bottomLeft img{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+}
+
+#bottomRight img{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5%;
+}
+
+/* Footer proper */
+footer{
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+    position: absolute;
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff;
+}
+
+footer p{
+    padding-left: 1em;
+}
+
+/* Contact us properties */
+#contactUs{
+    text-decoration: none;
+    color: #fff;
+}
+
+#contactUs:hover{
+    text-decoration: underline;
+}
+
+/* Product description section properties */
+#productDescription{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 1em;
+}
+
+#cncMachinePic{
+   order: 2;
+}
+
+#productDescription p{
+    order: 1;
+    margin-top: 10em;
+    margin-right: 3em;
+}
+
+/* Product technical data section properties */
+#TechnicalDataModel{
+    background: #ededed;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+#TechnicalDataModel ul{
+    padding-left: 5rem;
+}
+
+/* h4 */
+h4{
+    font-size: 2em;
+    text-shadow: 1px 1px 5px black;
+    margin-top: 0;
+}
+
+/* Compairson table section properties */
+#comparisonTable{
+    background: #fff;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#comparisonTable table{
+    margin-left: 4em;
+}
+
+/* Form section properties */
+form{
+    background: #ededed;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
