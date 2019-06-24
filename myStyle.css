@@ -182,7 +182,8 @@ footer p{
 }
 
 #TechnicalDataModel ul{
-    list-style-type: square;
+    display: flex;
+    list-style-type: none;
     justify-content: space-between;
     padding-left: 5rem;
 }
