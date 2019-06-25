@@ -98,7 +98,7 @@ table, tr, th, td{
 }
 
 
-/* Corner icon properties */
+/* Corner icons properties */
 #topLeft img{
     position: fixed;
     top: 0;
@@ -152,7 +152,7 @@ footer p{
 }
 
 /* Product description section properties */
-#productDescription{
+.productDescription{
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -166,14 +166,14 @@ footer p{
    order: 2;
 }
 
-#productDescription p{
+.productDescription p{
     order: 1;
     margin-top: 10em;
     margin-right: 3em;
 }
 
 /* Product technical data section properties */
-#TechnicalDataModel{
+.TechnicalDataModel{
     background: #ededed;
     padding-left: 1em;
     padding-top: 2em;
@@ -181,40 +181,47 @@ footer p{
     
 }
 
-#TechnicalDataModel ul{
+.TechnicalDataModel ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     padding-left: 5rem;
 }
 
-#TechnicalDataModel ul li{
+.TechnicalDataModel ul li{
     margin-right: 1em;
 }
 
 /* h4 */
 h4{
+    margin-bottom: .5em;
     font-size: 2em;
     text-shadow: 1px 1px 5px black;
     margin-top: 0;
 }
 
 /* Compairson table section properties */
-#comparisonTable{
+.comparisonTable{
     background: #fff;
     padding-left: 1em;
     padding-top: 2em;
     padding-bottom: 3em;
 }
 
-#comparisonTable table{
+.comparisonTable table{
     margin-left: 4em;
 }
 
 /* Form section properties */
-form{
+.details-form{
     background: #ededed;
     padding-left: 1em;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 11em;
 }
+
+.details-form__container{
+    display: grid;
+    grid: repeat(1, 25px) / auto-flow 200px;
+}
+
